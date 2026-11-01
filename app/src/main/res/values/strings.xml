@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gazzette Plus</string>
+
+    <!-- General Headers & Status -->
+    <string name="search_placeholder">Search news, topics, articles…</string>
+    <string name="status_offline_mode">Offline Sync Ready</string>
+    <string name="section_trending">Top Stories &amp; Breaking</string>
+    <string name="section_latest">Latest Articles</string>
+    <string name="saved_bookmarks_title">Saved Offline Library</string>
+    <string name="saved_storage_usage">3 Articles Cached (4.2 MB)</string>
+
+    <!-- Categories -->
+    <string name="cat_all">All News</string>
+    <string name="cat_ethiopia">Ethiopia</string>
+    <string name="cat_top_stories">Top Stories</string>
+    <string name="cat_deep_dive">Deep Dive</string>
+    <string name="cat_tech">Technology</string>
+
+    <!-- Article Placeholders (Home & Detail) -->
+    <string name="hero_article_title">Ethiopia Expands Digital Financial Infrastructure with National Payment Switch</string>
+    <string name="hero_article_author">By Abebe Kebede • 5 min read</string>
+    <string name="hero_article_time">10 mins ago</string>
+
+    <string name="article1_title">Addis Ababa Smart City Project Launches New Electric Bus Fleet</string>
+    <string name="article1_subtitle">By Tigist Haile • Ethiopia • 3 min read</string>
+    <string name="article1_time">25 mins ago</string>
+
+    <string name="article2_title">Agricultural Tech Startup Empowers Smallholder Farmers in Rift Valley</string>
+    <string name="article2_subtitle">By Yared Tadesse • Technology • 6 min read</string>
+    <string name="article2_time">1 hour ago</string>
+
+    <string name="article3_title">Coffee Export Earnings Reach Record High Following New Trade Agreements</string>
+    <string name="article3_subtitle">By Solomon Berhanu • Deep Dive • 8 min read</string>
+    <string name="article3_time">3 hours ago</string>
+
+    <!-- Article Detail Content -->
+    <string name="article_full_body">Addis Ababa, Ethiopia — In a major effort to bolster digital economy integration, national policymakers have unveiled expanded infrastructure initiatives across urban and rural transport and payment channels.\n\nThe strategic roadmap emphasizes offline-capable mobile service delivery, localized digital content publishing, and open payment interoperability designed to keep essential services accessible even during network throttling or outages.\n\nIndustry stakeholders highlighted that digital publishers and news platforms like Gazzette Plus are leading the way by introducing cached content archives, high-contrast outdoor reading themes, and zero-rating bandwidth optimizations for mobile subscribers across Ethiopia.</string>
+
+    <!-- Actions & Accessibility -->
+    <string name="action_bookmark">Bookmark</string>
+    <string name="action_saved">Saved</string>
+    <string name="action_share">Share</string>
+    <string name="action_listen">Listen (Audio)</string>
+    <string name="action_font_decrease">Decrease Font Size</string>
+    <string name="action_font_increase">Increase Font Size</string>
+    <string name="action_browse_news">Browse News</string>
+    <string name="empty_bookmarks_title">No Saved Articles Yet</string>
+    <string name="empty_bookmarks_desc">Articles you bookmark will be stored here for offline reading when you have no internet access.</string>
+</resources>

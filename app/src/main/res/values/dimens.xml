@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Touch Targets (Accessibility Rule: Min 48dp) -->
+    <dimen name="min_touch_target_size">48dp</dimen>
+    <dimen name="button_min_height">48dp</dimen>
+
+    <!-- Margins & Spacing -->
+    <dimen name="spacing_tiny">4dp</dimen>
+    <dimen name="spacing_small">8dp</dimen>
+    <dimen name="spacing_medium">16dp</dimen>
+    <dimen name="spacing_large">24dp</dimen>
+    <dimen name="spacing_xlarge">32dp</dimen>
+
+    <!-- Card & Element Dimensions -->
+    <dimen name="card_corner_radius">12dp</dimen>
+    <dimen name="card_elevation">2dp</dimen>
+    <dimen name="hero_card_height">220dp</dimen>
+    <dimen name="article_thumb_size">88dp</dimen>
+    <dimen name="chip_height">48dp</dimen>
+
+    <!-- Typography Text Sizes -->
+    <dimen name="text_display">24sp</dimen>
+    <dimen name="text_headline">20sp</dimen>
+    <dimen name="text_subhead">16sp</dimen>
+    <dimen name="text_body">15sp</dimen>
+    <dimen name="text_caption">12sp</dimen>
+</resources>
