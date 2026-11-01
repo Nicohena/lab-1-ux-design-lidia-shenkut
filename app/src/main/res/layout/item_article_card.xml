@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    android:background="@color/surface_light"
+    android:elevation="2dp"
+    android:padding="12dp"
+    android:orientation="horizontal"
+    android:gravity="center_vertical">
+
+    <!-- Article Thumbnail Container -->
+    <FrameLayout
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:background="#FFE0E0E0">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/cat_ethiopia"
+            android:textColor="#FF757575"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <!-- Article Info & Metadata -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="12dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_category_badge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cat_ethiopia"
+            android:textColor="@color/badge_ethiopia"
+            android:textSize="11sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tv_article_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/article1_title"
+            android:textColor="@color/text_primary"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:maxLines="2"
+            android:ellipsize="end"/>
+
+        <TextView
+            android:id="@+id/tv_article_metadata"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="@string/article1_subtitle"
+            android:textColor="@color/text_secondary"
+            android:textSize="12sp"/>
+    </LinearLayout>
+
+    <!-- Bookmark Quick Action (Min 48dp Touch Target Compliant) -->
+    <ImageButton
+        android:id="@+id/btn_item_bookmark"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/action_bookmark"
+        android:src="@drawable/ic_bookmark"/>
+
+</LinearLayout>
