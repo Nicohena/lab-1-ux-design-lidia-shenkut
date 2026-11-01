@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Gazzette Plus App Theme -->
+    <style name="Theme.GazzettePlus" parent="android:Theme.Material.Light.NoActionBar">
+        <!-- Primary Brand Colors -->
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:colorPrimaryDark">@color/primary_dark</item>
+        <item name="android:colorAccent">@color/accent_gold</item>
+
+        <!-- Background & Surface Colors -->
+        <item name="android:windowBackground">@color/background_light</item>
+        <item name="android:statusBarColor">@color/primary_dark</item>
+    </style>
+
+    <!-- Backward compatibility alias -->
+    <style name="Theme.WeekndExe" parent="Theme.GazzettePlus" />
+</resources>

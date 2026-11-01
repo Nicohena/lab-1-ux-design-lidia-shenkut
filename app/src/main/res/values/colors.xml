@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Gazzette Plus Brand Colors -->
+    <color name="primary">#B71C1C</color>
+    <color name="primary_dark">#7F0000</color>
+    <color name="primary_light">#EF5350</color>
+    <color name="accent_gold">#FFB300</color>
+
+    <!-- Surfaces & Backgrounds -->
+    <color name="background_light">#F8F9FA</color>
+    <color name="surface_light">#FFFFFF</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="divider_color">#E0E0E0</color>
+    <color name="card_outline">#E0E0E0</color>
+
+    <!-- Text Colors (High Contrast for Outdoor Sunlight Readability) -->
+    <color name="text_primary">#1C1B1F</color>
+    <color name="text_secondary">#49454F</color>
+    <color name="text_tertiary">#79747E</color>
+    <color name="text_on_primary">#FFFFFF</color>
+
+    <!-- Category & Badge Colors -->
+    <color name="badge_ethiopia">#C62828</color>
+    <color name="badge_top_stories">#1565C0</color>
+    <color name="badge_deep_dive">#6A1B9A</color>
+    <color name="badge_tech">#00838F</color>
+    <color name="badge_text">#FFFFFF</color>
+
+    <!-- Status & Connectivity Pill -->
+    <color name="offline_badge_bg">#E8F5E9</color>
+    <color name="offline_badge_text">#2E7D32</color>
+
+    <!-- Generic Basics -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
